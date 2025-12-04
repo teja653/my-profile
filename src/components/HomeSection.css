@@ -1,0 +1,41 @@
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 0 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+h3{
+  color: #7a68ff;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.description {
+  max-width: 700px;
+  margin-top: 20px;
+  line-height: 1.6;
+}
+
+.btn {
+  margin-top: 30px;
+  background: transparent;
+  border: 2px solid #8a63f1;
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #8a63f1;
+}
+
+
+
